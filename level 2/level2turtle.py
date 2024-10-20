@@ -143,5 +143,11 @@ forward(125)
 color("gray")
 right(90)
 forward(200)
+
+
+
+
+
+
 exitonclick()
 
