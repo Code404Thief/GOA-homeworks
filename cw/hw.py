@@ -1,0 +1,17 @@
+#cw 1
+name = input("your name")
+last_name = input("your last name")
+age = input("your age")
+country = input("which country do you live in")
+city = input("which city do you live in")
+favourite_car = input("your favourite car")
+favourite_color = input("your favourite color")
+print("so you must be " + name + " " + last_name + " its quite a pleasure to meet you. and as your resume says you are " + age)
+print(" years old?, you live in " + country + " " + city + " am I right? and your favourite car and color is " + favourite_car + " " + favourite_color)
+#cw2
+x = input("x")
+y = input("y")
+print(int(x) + int(y))
+print(int(x) - int(y))
+print(int(x) * int(y))
+print(int(x) / int(y))
