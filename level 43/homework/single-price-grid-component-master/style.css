@@ -1,1 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+  text-align: left;
+  padding: 30px 20px;
+}
+
+.top h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.guarantee {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: hsl(218, 22%, 67%);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.subscription,
+.wu {
+  padding: 20px;
+  flex: 1;
+}
+
+.subscription {
+  background-color: hsl(179, 62%, 43%);
+  border-right: 1px solid hsl(204, 43%, 93%);
+  text-align: center;
+}
+
+.subscription h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.price span {
+  font-size: 28px;
+}
+
+.access {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 35vh;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.wu h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.wu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wu li {
+  font-size: 14px;
+  margin: 8px 0;
+  color: hsl(204, 43%, 93%);
+}
+
+.subscription {
+  border-right: none;
+  border-bottom: 1px solid hsl(204, 43%, 93%);
+}

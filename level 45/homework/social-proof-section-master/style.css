@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+:root {
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-grayish-magenta);
+    color: var(--very-dark-magenta);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.subheading {
+    font-weight: 400;
+    color: var(--dark-grayish-magenta);
+    margin-bottom: 2rem;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.review-box {
+    background-color: var(--very-dark-magenta);
+    color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-box h3 {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.review-box p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.ratings {
+    margin-bottom: 2rem;
+}
+
+.stars {
+    color: var(--soft-pink);
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+}
