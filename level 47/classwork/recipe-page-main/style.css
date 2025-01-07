@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  color: var(--stone-900);
+  background-color: var(--stone-100);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Recipe Card Styles */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card {
+  text-align: left;
+  margin: 0 auto;
+}
+
+.recipe-image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.recipe-title {
+  font-family: 'Young Serif', serif;
+  font-size: 2rem;
+  color: var(--brown-800);
+  margin: 20px 0;
+}
+
+.recipe-description {
+  font-size: 1rem;
+  color: var(--stone-600);
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: var(--rose-800);
+  margin-top: 20px;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+ul li,
+ol li {
+  font-size: 1rem;
+  color: var(--stone-900);
+  margin-bottom: 10px;
+}
+
+li::marker {
+  color: var(--rose-800);
+}
+
+/* Nutrition Section */
+.nutrition p {
+  font-size: 1rem;
+  color: var(--stone-600);
+}
+
+strong {
+  font-weight: 600;
+  color: var(--stone-600);
+}
