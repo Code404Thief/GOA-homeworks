@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap');
+
+
+
+
+
+.p1 {
+    font-family: "Lexend Giga";
+}
+.p2{
+    font-family: "Roboto", sans-serif;
+
+}
+.p3{
+    font-family: "Playwrite VN";
+}
+
+/* backup-ი საჭიროა რადგან თუ ჩვენი არჩეული ფონტი არ იმუშავებს ან წაშლილი იქნება გამომცემლის მიერ, დამატებითი დამხმარე ფონტი ვიხმაროთ */

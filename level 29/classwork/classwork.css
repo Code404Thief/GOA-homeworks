@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN&display=swap');
+
+.p1{
+    text-decoration:dashed;
+}
+.p2{
+    text-decoration: dotted;
+}
+.p3{
+    text-decoration:double;
+
+}
+.p4{
+    text-decoration:line-through
+}
+.p5{
+    text-decoration:none
+}
+.p6{
+    text-decoration:overline
+}
+.p7{
+    text-decoration:solid
+}
+.p8{
+    text-decoration:underline
+}
+.p9{
+    text-decoration:wavy
+}
+.p10{
+    font-family: "Playwrite VN";
+}

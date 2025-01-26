@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f9;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* სამი სვეტი */
+  grid-template-rows: repeat(2, 1fr);   /* ორი რიგი */
+  gap: 10px; /* სივრცე ელემენტებს შორის */
+  background-color: red; /* წითელი ფერი gap-ისთვის */
+  padding: 10px; /* სივრცე გარე მხრიდან */
+}
+
+.child {
+  background-color: green; /* მწვანე ბლოკები */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+}

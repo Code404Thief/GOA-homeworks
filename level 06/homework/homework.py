@@ -1,0 +1,20 @@
+ # hw1
+input1 = int(input("enter a number"))
+input2 = int(input("enter a number"))
+input3 = int(input("enter a number"))
+input4 = int(input("enter a number"))
+input5 = int(input("enter a number"))
+input6 = int(input("enter a number"))
+input7 = int(input("enter a number"))
+input8 = int(input("enter a number"))
+input9 = int(input("enter a number"))
+input10 = int(input("enter a number"))
+print(input1 + input2 + input3 + input4 + input5+ input6+input7+input8+input9+input10)
+# hw2
+input1 = input("enter a word")
+input2 = input("enter a word")
+input3 = input("enter a word")
+print(input1+input2+input3)
+# hw3
+input1 = int(input("enter a number"))
+print(input1 + 5)
